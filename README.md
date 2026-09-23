@@ -93,6 +93,8 @@ npm run dev
 
 브라우저에서 `http://localhost:3000`을 엽니다.
 
+4. 사용자는 Vercel에서 배포한 URL을 실행하여 검증해봅니다.
+
 ## fixture 기본 검증 순서
 
 정상 UPSERT/다음 날짜:
@@ -117,7 +119,8 @@ Reset → T04-NORMAL-D1-A → T04-NORMAL-D1-B → T04-TIMEOUT → T04-RECOVER-D2
 
 ## 실제 날짜 증거
 
-fixture의 D1/D2는 실제 날짜 증거가 아닙니다. 배포 후 서로 다른 실제 `Asia/Seoul` 날짜에 `최신 가격 조회`를 실행해 화면의 `실제 날짜 증거`가 `2 / 2`가 되도록 합니다.
+fixture의 D1/D2는 실제 날짜 증거가 아닙니다. 
+배포 후 서로 다른 실제 `Asia/Seoul` 날짜에 `최신 가격 조회`를 실행해 화면의 `실제 날짜 증거`가 `2 / 2`가 되도록 코딩하였습니다.
 
 ## 배포/제출
 
@@ -128,4 +131,4 @@ fixture의 D1/D2는 실제 날짜 증거가 아닙니다. 배포 후 서로 다�
 
 ## 공개 과제 원본
 
-교수자가 제공한 README, contract, registry, schema, fixture는 `assignment/` 아래에 원본 형태로 보존했습니다.
+과제 제출자가 제공한 README, contract, registry, schema, fixture는 `assignment/` 아래에 원본 형태로 보존했습니다.
