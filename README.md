@@ -91,7 +91,8 @@ npm run test
 npm run dev
 ```
 
-브라우저에서 `http://localhost:3000`을 엽니다.
+개발자는 브라우저에서 `http://localhost:3000`을 엽니다.
+
 
 4. 사용자는 Vercel에서 배포한 URL을 실행하여 검증해봅니다.
 
