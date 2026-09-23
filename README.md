@@ -95,6 +95,10 @@ npm run dev
 
 4. 사용자는 Vercel에서 배포한 URL을 실행하여 검증해봅니다.
 
+```
+https://psg-week1-forth.vercel.app/
+```
+
 ## fixture 기본 검증 순서
 
 정상 UPSERT/다음 날짜:
